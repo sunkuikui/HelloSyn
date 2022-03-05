@@ -1,0 +1,32 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+buildscript {
+    repositories {
+        mavenCentral()
+
+        jcenter()
+
+        //新加
+
+        mavenLocal()
+
+        google()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.4.0'
+        classpath 'com.github.dcendents:android-maven-gradle-plugin:2.1'
+    }
+}
+allprojects {
+    repositories {   //新加
+
+        mavenCentral()
+
+        jcenter()
+
+        //新加
+
+        mavenLocal()
+
+        google()
+    }
+}
